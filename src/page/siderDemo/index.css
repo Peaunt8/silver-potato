@@ -1,0 +1,20 @@
+.profile {
+  display: flex;
+  padding: 10px;
+}
+
+.profile-info {
+  display: flex;
+  padding-left: 10px;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+}
+
+.profile-name {
+  font-size: 20px;
+}
+
+.profile-bio {
+  font-size: 16px;
+}
