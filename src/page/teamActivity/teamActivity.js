@@ -1,6 +1,6 @@
 import React from 'react';
 
-class teamActivity extends React.Component{
+class TeamActivity extends React.Component{
   render(){
     return(
       <div>
@@ -10,4 +10,4 @@ class teamActivity extends React.Component{
   }
 }
 
-export default teamActivity;
+export default TeamActivity;

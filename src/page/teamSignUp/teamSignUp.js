@@ -1,5 +1,5 @@
 import { Table } from 'antd';
-import React from "react";
+import React from 'react';
 
 const columns = [
   {
@@ -26,7 +26,7 @@ for (let i = 0; i < 46; i++) {
   });
 }
 
-class teamSignUp extends React.Component {
+class TeamSignUp extends React.Component {
   state = {
     selectedRowKeys: [], // Check here to configure the default column
   };
@@ -79,4 +79,4 @@ class teamSignUp extends React.Component {
   }
 }
 
-export default teamSignUp;
+export default TeamSignUp;
