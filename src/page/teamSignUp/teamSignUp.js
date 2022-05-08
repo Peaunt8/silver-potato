@@ -3,15 +3,15 @@ import React from 'react';
 
 const columns = [
   {
-    title: 'Name',
+    title: '姓名',
     dataIndex: 'name',
   },
   {
-    title: 'Age',
+    title: '学号',
     dataIndex: 'age',
   },
   {
-    title: 'Address',
+    title: '联系电话',
     dataIndex: 'address',
   },
 ];

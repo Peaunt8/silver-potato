@@ -8,3 +8,4 @@ export class PersonalPage extends React.Component {
   }
 }
 export default PersonalPage;
+
