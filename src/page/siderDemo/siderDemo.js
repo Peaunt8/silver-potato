@@ -1,6 +1,6 @@
 import React from 'react';
 import { Avatar, Breadcrumb, Layout, Menu } from 'antd';
-import { DesktopOutlined, FileOutlined, PieChartOutlined, UserOutlined } from '@ant-design/icons';
+import { DesktopOutlined, FileOutlined, PieChartOutlined, UserOutlined,PoweroffOutlined } from '@ant-design/icons';
 import {Link, OutletProps, Route, Router, Routes,Outlet} from 'react-router-dom';
 import './index.css';
 
@@ -16,6 +16,10 @@ export default class SiderDemo extends React.Component {
     console.log(collapsed);
     this.setState({ collapsed });
   };
+
+  Logout = () =>{
+    console.log('666')
+  }
 
   render() {
     const { collapsed } = this.state;
@@ -58,6 +62,12 @@ export default class SiderDemo extends React.Component {
             style={{ padding: 0, color: 'dodgerblue', fontSize: 'x-large', margin: 14 }}
           >
             校园活动管理系统
+            <div className="admin">
+            <Link to="/">
+             <span>admin</span>
+               <span onClick={this.Logout}><PoweroffOutlined /></span>
+               </Link>
+            </div>
           </Layout.Header>
           <Layout.Content style={{ margin: '0 16px ' }}>
             <Breadcrumb style={{ margin: '16px 0' }}>

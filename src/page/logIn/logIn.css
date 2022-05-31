@@ -1,0 +1,13 @@
+.login-form{
+    width: 700px;
+    margin: auto !important;
+}
+.avatar_box{
+    width: 100%;
+}
+.avatar_box img{
+    margin-left: 45%;
+}
+.login-form-button{
+    margin-left: 45%;
+}

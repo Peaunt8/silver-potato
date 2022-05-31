@@ -18,3 +18,10 @@
 .profile-bio {
   font-size: 16px;
 }
+.site-layout-background{
+  display: flex;
+  justify-content: space-between
+}
+.admin{
+  float: right;
+}
